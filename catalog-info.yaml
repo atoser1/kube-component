@@ -4,6 +4,7 @@ metadata:
   annotations:
     backstage.io/kubernetes-id: rancher-desktop
   name: rancher-desktop
-lifecycle: production
+spec:
+  lifecycle: production
   owner: team-a
   type: service

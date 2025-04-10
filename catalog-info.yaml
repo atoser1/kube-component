@@ -2,8 +2,8 @@ apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
   annotations:
-    backstage.io/kubernetes-id: my-kubernetes-component
-  name: my-kubernetes-component
+    backstage.io/kubernetes-id: rancher-desktop
+  name: rancher-desktop
 spec:
   lifecycle: production
   owner: team-a

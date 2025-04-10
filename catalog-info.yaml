@@ -2,6 +2,7 @@ apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
   annotations:
+    backstage.io/techdocs-ref: rancher-desktop
     backstage.io/kubernetes-id: rancher-desktop
   name: rancher-desktop
 spec:

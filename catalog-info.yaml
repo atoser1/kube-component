@@ -4,22 +4,6 @@ metadata:
   annotations:
     backstage.io/kubernetes-id: rancher-desktop
   name: rancher-desktop
-spec:
-  replicas: 3
-  selector:
-    matchLabels:
-      app: rancher-desktop
-  template:
-    metadata:
-      labels:
-        app: rancher-desktop
-        backstage.io/kubernetes-id: rancher-desktop
-    spec:
-      containers:
-      - name: ubuntu
-        image: ubuntu
-        command: 
-        - /bin/sh
-        args:
-        - -c
-        - "tail -f /dev/null"
+lifecycle: production
+  owner: team-a
+  type: service

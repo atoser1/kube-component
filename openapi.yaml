@@ -4,7 +4,7 @@ metadata:
   name: artist-api
   description: Retrieve artist details
 spec:
-  type: swagger
+  type: openapi
   lifecycle: production
   owner: team-a
   system: artist-engagement-portal

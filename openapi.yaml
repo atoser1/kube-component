@@ -1,13 +1,13 @@
 apiVersion: backstage.io/v1alpha1
 kind: API
 metadata:
-  name: my-test-api
-  description: Testing the API component
+  name: artist-api
+  description: Retrieve artist details
 spec:
   type: openapi
   lifecycle: production
   owner: team-a
-  system: my-test-portal
+  system: artist-engagement-portal
   definition: |
     openapi: "3.0.0"
     info:
